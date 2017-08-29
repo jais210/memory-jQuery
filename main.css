@@ -1,0 +1,21 @@
+.juego {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.71429;
+    background-color: #fff;
+}
+
+.table {
+    background-color: green;
+    
+}
+
+.td {
+    background-color: salmon;
+}
+
+.tr {
+    background-color: skyblue;
+    
+}
