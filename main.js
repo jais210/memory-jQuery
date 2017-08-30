@@ -1,19 +1,26 @@
 // versión jQuery
-
-
-var table = $('<table></table>').addClass('table')
-var celdas = 3;
-for (i = 0; i < celdas; i++) {
+var table = $('<table></table>').addClass('table');
+var div = $('<div></div>').addClass('div');
+var arrImg = [
+    ["3", "1", "0", "2"],
+    ["0", "2", "3", "1"]
+];
+for (i = 0; i < 2; i++) {
     var tr = $('<tr></tr>');
-    for (j = 0; j < celdas; j++) {
-        var td = $('<td></td>').addClass('td').append("<img src= 'img/img" + j + ".jpg'>");
-        tr.prepend(td);
+    for (j = 0; j < 4; j++) {
+        var td = $('<td></td>').addClass('td').append("<img src= 'img/img" + arrImg[i][j] + ".jpg'>").append(div);
+        tr.append(td);
     }
-    table.prepend(tr);
+    table.append(tr);
 }
+$('body').append(table);
+// primero 
+$('.td').click(function() {
 
-$('body').prepend(table);
-
+})
+if (arrImg[i][j] === arrImg[i][j]) {
+    $()
+}
 
 
 // var x;

@@ -9,7 +9,7 @@
     width: 28%;
     height: 300px;
     position: absolute;
-    left: 30px;
+    left: 130px;
     top: 50px;
 }
 
@@ -17,4 +17,9 @@
     background-color: salmon;
     width: 80px;
     height: 90px;
+}
+
+.div {
+    background-color: skyblue;
+    position: absolute;
 }
