@@ -1,17 +1,18 @@
 // versión jQuery
 
-var table = $('<table></table>').addClass('table')
 
-for (i = 0; i < 3; i++) {
-    var tr = $('<tr></tr>').addClass('tr').text(i);
-        for (j = 0; j < 3; j++) {
-        var td = $('<td></td>').addClass('td').text(j);
-    tr.append(td);
+var table = $('<table></table>').addClass('table')
+var celdas = 3;
+for (i = 0; i < celdas; i++) {
+    var tr = $('<tr></tr>');
+    for (j = 0; j < celdas; j++) {
+        var td = $('<td></td>').addClass('td').append("<img src= 'img/img" + j + ".jpg'>");
+        tr.prepend(td);
     }
-table.append(tr);
+    table.prepend(tr);
 }
 
-$('body').append(table);
+$('body').prepend(table);
 
 
 
