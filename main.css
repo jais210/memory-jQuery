@@ -1,7 +1,23 @@
-.td {
-    background-color: salmon;
+.table{
+  /* background-color: transparent;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  padding: .25rem;
+  transition: border-color .2s ease; */
+  
+	width: 50%;
+	height: 300px;
 }
-
 .tr {
     background-color: skyblue;
+    /* width: 80px; 
+    height: 90px; */
 }
+.td {
+    background-color: salmon;
+    width: 80px; 
+    height: 90px;
+}
+
