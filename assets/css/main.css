@@ -1,0 +1,68 @@
+/* .table {
+    background-color: transparent;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    padding: .25rem;
+    transition: border-color .2s ease;
+    width: 28%;
+    height: 300px;
+    position: absolute;
+    left: 130px;
+    top: 50px;
+}
+
+.td {
+    background-color: salmon;
+    width: 80px;
+    height: 90px;
+}
+
+.div {
+    background-color: skyblue;
+    position: absolute;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font: 18px Verdana;
+    color:palevioletred;
+    background: #CCC;
+  }
+  
+  #container {
+    margin: 0px auto;
+    width: 90%;
+  }
+  
+  #tarjetas {
+    z-index: 100;
+    margin: 10px 0 0;
+  }
+  
+  #tarjetas div{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid salmon;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.5);
+    background: salmon;
+    z-index: 2;
+  }
+  
+  #tarjetas div img{
+    width: 100%;
+    height: 100%;
+    display: none;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
